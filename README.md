@@ -1,4 +1,4 @@
-# Aset Alias React Naitve App
+# ALiAS Native App
 
 
 ## Demo
