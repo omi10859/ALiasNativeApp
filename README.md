@@ -1,14 +1,14 @@
 # ALiAS Native App
 
 
-<a href="url"><img src="http://asetalias.in/images/logo-dark.png" align="left" height="100" width="250" ></a>
+<a href="url"><img src="http://asetalias.in/images/logo-dark.png" align="left" height="100" width="250" >
 
 
 ## Demo
 <a href="https://imgflip.com/gif/2bct2q"><img src="https://i.imgflip.com/2bct2q.gif" title="made at imgflip.com"/></a>
 
 
-
+</a>
 
 
 
