@@ -3,7 +3,6 @@ import {Image} from 'react-native';
 import { Container, Header, Content, Card, CardItem, Thumbnail, Text, Button, Icon, Left, Body } from 'native-base';
 import HTMLView from 'react-native-htmlview';
 import Video from 'react-native-video';
-import {hello} from './imagehelper.js';
 export default class Webinardatadata extends Component {
     render() {
 

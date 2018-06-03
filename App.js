@@ -3,7 +3,7 @@ import {Text, View} from 'react-native';
 import {Container} from 'native-base'
 
 
-import Event from './src/components/event.js'
+import Event from './src/components/events/event.js'
 import AppFooter from './src/components/footer.js'
 import AppHeader from './src/components/header.js'
 

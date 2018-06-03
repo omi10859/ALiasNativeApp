@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Header, Content, Tab, Tabs,Body,Title,Left,Right } from 'native-base';
-import Offlineevent from './offlineevent.js';
-import Webinardata from './webinardata.js';
+import Offlineevent from './events/upcoming/offlineevent.js';
+import Webinardata from './events/webinars//webinardata.js';
 export default class TabsExample extends Component{
   render() {
     return (
@@ -13,7 +13,7 @@ export default class TabsExample extends Component{
         </Body>
         <Right />
       </Header>
-        <Tabs initialPage={1}>
+        <Tabs >
           <Tab heading="Upcoming">
             <Offlineevent />
           </Tab>

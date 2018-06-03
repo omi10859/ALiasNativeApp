@@ -6,11 +6,7 @@ import HTMLView from 'react-native-htmlview';
 
 export default class Webinardatadata extends Component {
     render() {
-
-        let articles = this.props.data.map(function(articleData, index){
-          //const you= 'https://www.youtube.com/watch?v=';
-          //const tube= {this.state.articleData.videoId};
-          //const youtube = you+tube;
+      let articles = this.props.data.map(function(articleData, index){
           return(
             <Card style={{flex: 0}}>
             <CardItem>
@@ -23,14 +19,11 @@ export default class Webinardatadata extends Component {
             </CardItem>
             <CardItem>
               <Body>
-                <TouchableHighlight onPress={() => this.moveToAddNewCustomer()}>
-                  <Image style={{height: 206, width: 346}} source={{uri: 'http://asetalias.in/images/flashbox/default.jpg'}}/>
-                </TouchableHighlight>
+                <Image style={{height: 206, width: 346}} source={{uri: 'http://asetalias.in/images/flashbox/default.jpg'}}/>
                 <HTMLView value = {articleData.description}
                 style={{margin: 2}}/>
               </Body>
             </CardItem>
-
           </Card>
           )
         });
