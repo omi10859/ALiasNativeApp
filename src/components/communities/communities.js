@@ -10,7 +10,7 @@ export default class Communities extends Component{
     fontSize: 18,
     marginTop: 99,
     width: 200,
-    backgroundColor: 'yellow',}}>Communitie Page</Text>
+    backgroundColor: 'yellow',}}>Community Page</Text>
     );
   }
 }
