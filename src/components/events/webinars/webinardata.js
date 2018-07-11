@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Text} from 'react-native';
-import {Content, Card, CardItem, Body} from 'native-base';
+import {Content, Card, CardItem, Body,} from 'native-base';
 import Webinardatadata from './webinardatadata.js';
 
 export default class Webinardata extends React.Component {
@@ -26,8 +26,9 @@ componentDidMount(){
 }
     render() {
         return (
-          <Webinardatadata data = {this.state.data}/>
 
+          <Webinardatadata data = {this.state.data}/>
+          
       );
     }
 }
