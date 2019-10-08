@@ -11,7 +11,13 @@ import AppHeader from './src/components/header.js';
 import About from './src/components/about/about.js';
 import Communities from './src/components/communities/communities.js';
 
+import SplashScreen from 'react-native-splash-screen';
+
 export default class App extends Component{
+  componentDidMount(){
+    SplashScreen.hide()
+  }
+
   render() {
     return(
       <Container>
