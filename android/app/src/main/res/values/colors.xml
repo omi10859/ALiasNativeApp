@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Change the color value for your need -->
+    <color name="Black">#000000</color>
+    <color name="White">#ffffff</color>
+
+    <!-- react-native-splash-screen -->
+    <color name="primary_dark">#000000</color>
+</resources>
