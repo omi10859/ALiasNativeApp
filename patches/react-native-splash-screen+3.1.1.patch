@@ -1,0 +1,12 @@
+diff --git a/node_modules/react-native-splash-screen/android/build.gradle b/node_modules/react-native-splash-screen/android/build.gradle
+index 8e57c07..7eca516 100644
+--- a/node_modules/react-native-splash-screen/android/build.gradle
++++ b/node_modules/react-native-splash-screen/android/build.gradle
+@@ -21,6 +21,6 @@ android {
+ dependencies {
+     compile fileTree(dir: 'libs', include: ['*.jar'])
+     testCompile 'junit:junit:4.12'
+-    compile 'com.android.support:appcompat-v7:26.1.0'
++    compile 'com.android.support:appcompat-v7:23.0.1'
+     compile "com.facebook.react:react-native:+" // From node_modules
+ }
