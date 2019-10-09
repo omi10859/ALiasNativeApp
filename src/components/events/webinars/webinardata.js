@@ -1,34 +1,29 @@
-import React, {Component} from 'react';
-import {Text} from 'react-native';
-import {Content, Card, CardItem, Body,} from 'native-base';
+import React, { Component } from 'react';
+import { Text } from 'react-native';
+import { Content, Card, CardItem, Body } from 'native-base';
 import Webinardatadata from './webinardatadata.js';
 
 export default class Webinardata extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props);
-    this.state ={
-      data:['something_other_than_null']
-    }
+    this.state = {
+      data: ['something_other_than_null']
+    };
   }
-  getData(){
+  getData() {
     return fetch('http://asetalias.in/data/webinars.json')
-      .then((response) => response.json())
-      .then((responseJson) => {
-        this.setState({data: responseJson});
+      .then(response => response.json())
+      .then(responseJson => {
+        this.setState({ data: responseJson });
       })
-      .catch((error) => {
+      .catch(error => {
         console.error(error);
       });
   }
-componentDidMount(){
-  this.getData();
-
-}
-    render() {
-        return (
-
-          <Webinardatadata data = {this.state.data}/>
-          
-      );
-    }
+  componentDidMount() {
+    this.getData();
+  }
+  render() {
+    return <Webinardatadata data={this.state.data} />;
+  }
 }

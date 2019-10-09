@@ -1,11 +1,9 @@
-import React, {Component} from 'react';
-import {Text, View} from 'react-native';
-import Webinardata from './webinars/webinardata.js'
+import React, { Component } from 'react';
+import { Text, View } from 'react-native';
+import Webinardata from './webinars/webinardata.js';
 
-export default class Event extends Component{
+export default class Event extends Component {
   render() {
-    return(
-      <Webinardata/>
-    );
+    return <Webinardata />;
   }
 }

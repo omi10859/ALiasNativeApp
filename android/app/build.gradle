@@ -137,6 +137,9 @@ android {
 }
 
 dependencies {
+    // Splash Screen dependencies
+    compile project(':react-native-splash-screen')
+
     compile project(':react-native-youtube')
     compile project(':react-native-video')
     compile project(':react-native-vector-icons')
